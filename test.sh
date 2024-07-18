@@ -16,12 +16,12 @@ cd ..
 cd ..
 
 # Code
-source .python-env/bin/activate
 cd code
 cd CNN_CIFAR10
-./../.python-env/Scripts/python.exe Training.py
-./../.python-env/Scripts/python.exe Inference.py
+python3 Training.py
+python3 Inference.py
 cd ..
 cd CNN_FashionMNIST
-./../.python-env/Scripts/python.exe Training.py
-./../.python-env/Scripts/python.exe Inference.py
+python3 Training.py
+python3 Inference.py
+# etc
