@@ -1,4 +1,7 @@
 #!/bin/bash
+mkdir data
+mkdir models
+mkdir ouput_data
 
 # Data
 cd data
