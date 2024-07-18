@@ -2,7 +2,6 @@
 
 # Code
 cd code
-echo $(pwd)
 cd CNN_CIFAR10
 python3 Training.py
 python3 Inference.py

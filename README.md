@@ -9,7 +9,9 @@
 - cd bt_models_cluster
 - pip install -r code/requirements.txt
 - ./setup.sh
-- ./run_models.sh
+- ./run_models_python.sh
+  - Falls das Python in einem virtualenv ist: ./run_models_virtualenv.sh
+  - Gegebenenfalls muss der Pfad des virtualsenvs in run_models_virtualenv.sh angepasst werden
 
 ## Daten exportieren
 - Am wichtigsten ist der Ordner output_data

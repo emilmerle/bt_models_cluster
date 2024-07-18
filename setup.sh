@@ -22,9 +22,9 @@ cd ..
 cd data
 
 mkdir coco-yolo
-mv ../setup_data/coco-seg.yaml coco-yolo
+cp ../setup_data/coco-seg.yaml coco-yolo
 
 mkdir voc
-mv ../setup_data/VOC.yaml voc
+cp ../setup_data/VOC.yaml voc
 
 cd ..
