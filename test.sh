@@ -1,7 +1,7 @@
 #!/bin/bash
 mkdir data
 mkdir models
-mkdir ouput_data
+mkdir output_data
 
 # Data
 cd data
@@ -21,10 +21,10 @@ cd ..
 # Code
 cd code
 cd CNN_CIFAR10
-python3 Training.py
-python3 Inference.py
+../.python-env/bin/python Training.py
+../.python-env/bin/python Inference.py
 cd ..
 cd CNN_FashionMNIST
-python3 Training.py
-python3 Inference.py
+../.python-env/bin/python Training.py
+../.python-env/bin/python Inference.py
 # etc
