@@ -1,4 +1,5 @@
 #!/bin/bash
+
 mkdir data
 mkdir models
 mkdir output_data
