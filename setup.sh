@@ -19,6 +19,16 @@ cd ..
 cd ..
 cd ..
 
+cd data
+
+mkdir coco-yolo
+mv ../setup_data/coco-seg.yaml coco-yolo
+
+mkdir voc
+mv ../setup_data/VOC.yaml voc
+
+cd ..
+
 # Code
 cd code
 cd CNN_CIFAR10

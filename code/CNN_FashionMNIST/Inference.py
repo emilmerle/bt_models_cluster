@@ -84,7 +84,7 @@ model.eval()
 filename = f"./../../output_data/Inference_CNN_FashionMNIST/{device_name}.csv"
 os.makedirs(os.path.dirname(filename), exist_ok=True)
 
-EPOCHS = 3
+EPOCHS = 10
 if device_name in ["RP3", "RP4", "JETSONNANO"]:
     BREAKPOINT = 1000
 else:

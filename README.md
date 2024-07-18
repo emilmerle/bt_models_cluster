@@ -10,3 +10,7 @@
 - pip install -r code/requirements.txt
 - ./setup.sh
 - ./run_models.sh
+
+## Daten exportieren
+- Am wichtigsten ist der Ordner output_data
+- Falls ein Ordner "runs" erstellt wurde, gerne auch speichern

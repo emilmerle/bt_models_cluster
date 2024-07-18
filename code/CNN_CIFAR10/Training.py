@@ -85,10 +85,13 @@ os.makedirs(os.path.dirname(filename), exist_ok=True)
 model_path = "./../../models/"
 os.makedirs(os.path.dirname(model_path), exist_ok=True)
 
-EPOCHS = 7
+EPOCHS = 10
 if device_name in ["RP3", "RP4", "JETSONNANO"]:
     BREAKPOINT_TRAINING = 5000
     BREAKPOINT_VALIDATION = 1000
+elif device_name == "CLUSTER":
+    BREAKPOINT_TRAINING = 1_000_000
+    BREAKPOINT_VALIDATION = 1_000_000
 else:
     BREAKPOINT_TRAINING = 5000
     BREAKPOINT_VALIDATION = 1000
