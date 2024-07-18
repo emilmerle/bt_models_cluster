@@ -139,3 +139,5 @@ Code/input_files
 **/data
 # Models
 **/models
+# Output Data
+**/output_data
